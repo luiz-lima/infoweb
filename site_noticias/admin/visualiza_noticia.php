@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Visualizar de Notícias</title>
-    <link rel="stylesheet" type="text/css" href="estilos_admin.css">
+    <link rel="stylesheet" href="estilos_admin.css">
   </head>
   <body>
     <div id="principal">

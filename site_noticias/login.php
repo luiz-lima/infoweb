@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Acessar painel de controle</title>
-    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css">
   </head>
   <body>
     <div id="principal">

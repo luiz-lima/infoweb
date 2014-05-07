@@ -6,7 +6,7 @@ session_start();
   <head>
     <meta charset="utf-8">
     <title>Edição de Notícias</title>
-    <link rel="stylesheet" type="text/css" href="estilos_admin.css">
+    <link rel="stylesheet" href="estilos_admin.css">
   </head>
   <body>
     <div id="principal">
@@ -19,10 +19,10 @@ session_start();
         </h1>
         <form id="form-cad-noticia" name="form-cad-noticia" method="post" action="grava_edita_noticia.php">
           <?php
-					include 'conexao.php';
-					$sql = 'SELECT * FROM tab_noticia WHERE cod_noticia = ' . $_GET['cod_noticia'];
-					$exec_sql = mysql_query($sql);
-					$dados = mysql_fetch_array($exec_sql);
+          include 'conexao.php';
+          $sql = 'SELECT * FROM tab_noticia WHERE cod_noticia = ' . $_GET['cod_noticia'];
+          $exec_sql = mysql_query($sql);
+          $dados = mysql_fetch_array($exec_sql);
 
           $return = $_GET['success'];
           if (isset($return)) {
