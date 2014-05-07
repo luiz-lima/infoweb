@@ -14,7 +14,7 @@
         <h1>
           Acesso ao painel de controle
         </h1>
-				<?php
+        <?php
         $err = $_GET['err'];
         if (isset($err)) {
             echo '<h2 class="mensagem erro">Usuário ou senha inválidos!</h2>';
