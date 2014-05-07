@@ -1,0 +1,2 @@
+ErrorDocument 403 /site_noticias/error/forbidden.html
+ErrorDocument 404 /site_noticias/error/forbidden.html

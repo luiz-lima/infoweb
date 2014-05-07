@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* tags */
+
+#principal {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#topo {
+	background: #123456;
+	height: 80px;
+}
+
+#conteudo {
+	min-height: 600px;
+}
+
+#rodape {
+	background: #123456;
+	height: 60px;
+}
+
+#form-cad-noticia {
+	margin: 0 auto;
+	padding: 0;
+	width: 500px;
+}
+
+#cn-botao-enviar {
+	float: right;
+	margin: 5px 0px;
+}
+
+#tabela-noticias {
+	clear: both;
+	margin: 15px auto;
+	width: 100%;
+}
+
+#tabela-visualiza {
+	clear: both;
+	margin: 15px auto;
+	width: 100%;
+}
+
+#tabela-visualiza td {
+	text-align: left;
+}
+
+#tabela-visualiza .texto {
+	width: 160px;
+}
+
+/* classes */
+
+.campo-texto {
+	display: block;
+	width: inherit;
+}
+
+.campo-textarea {
+	height: 150px;
+}
+
+.botao {
+	border: none;
+	padding: 10px 0;
+	min-width: 75px;
+}
+
+.botao:hover {
+	background: #8bb8e5;
+	transition: 0.5s;
+}
+
+.mensagem {
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: thin;
+	padding: 15px;
+	text-align: center;
+}
+
+.sucesso {
+	background: #b7d6f5;
+	border: 2px solid #8bb8e5;
+}
+
+.erro {
+	background: #f1b4ac;
+	border: 2px solid #e62828;
+}
+
+.tabela, .tabela th, .tabela td {
+	border: solid 1px #e3e5e8;
+	text-align: center;
+}
+
+.tabela tr:hover {
+	background: #afc4d9;
+}
+
+.esquerda {
+	text-align: left !important;
+}
