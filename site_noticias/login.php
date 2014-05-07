@@ -19,7 +19,7 @@
         if (isset($err)) {
             echo '<h2 class="mensagem erro">Usuário ou senha inválidos!</h2>';
         }
-				?>
+        ?>
         <form id="form-login" method="post" action="autentica.php">
           <label for="campo-login">Nome de usuário</label>
           <input type="text" id="campo-login" class="campo-texto" name="login">
