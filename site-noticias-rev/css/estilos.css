@@ -1,0 +1,59 @@
+/* 
+    Created on : 17/07/2014, 20:32:41
+    Author     : luiz
+*/
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#principal {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#form-cadastrar {
+  border-radius: 10px;
+  background: cadetblue;
+  padding: 15px;
+}
+
+.container {
+  margin: 30px 0;
+}
+
+.tabela {
+  width: 100%;
+  border: solid 1px cadetblue;
+}
+
+.tabela th {
+  background: cadetblue;
+  color: white;
+}
+
+.tabela td {
+  border: solid 1px cadetblue;
+}
+
+.tabela tr {
+  border: cadetblue;
+}
+
+.texto-centralizado {
+  text-align: center;
+}
+
+.campo-form {
+  display: block;
+  width: 100%;
+}
+
+.container-reduzido-4 {
+  width: 400px;
+}
+
+.centralizado {
+  margin-left: auto;
+  margin-right: auto;
+}
